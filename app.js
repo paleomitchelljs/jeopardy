@@ -14,7 +14,7 @@
 
 const MANIFEST_URL = "questions/library.yaml";
 const STORAGE_KEY = "classroom-jeopardy-state-v2";
-const MAX_TEAMS = 5;
+const MAX_TEAMS = 7;
 const MAX_COLUMNS = 6;          // soft cap so the board stays readable
 const BASE_VALUES = [100, 200, 300, 400, 500];
 

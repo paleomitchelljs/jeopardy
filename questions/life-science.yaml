@@ -1,134 +1,254 @@
 # ============================================================
 # LIFE SCIENCE question library  (level: "7th Grade")
-# Flat list of entries. Each is tagged with category + value.
-# Depth target: 2 questions per (category, value). Add more freely.
+# Flat list of entries, each tagged with category + value.
+# Depth: 4 questions per (category, value). Add more freely.
 # ============================================================
 questions:
 
   # ---------- Cells & Classification ----------
   - { category: "Cells & Classification", level: "7th Grade", value: 100,
-      question: "The basic unit of structure and function in all living things.",
+      question: "Every living thing is built from these. Smallest unit that still counts as alive.",
       answer: "The cell" }
   - { category: "Cells & Classification", level: "7th Grade", value: 100,
-      question: "The kingdom that includes mushrooms, molds, and yeast.",
+      question: "Cells are too small to see, so in 1665 it took one of these to find them at all.",
+      answer: "A microscope" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 100,
+      question: "The kingdom of mushrooms, molds, and the yeast that makes bread rise.",
       answer: "Fungi" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 100,
+      question: "Word for an organism that gets by with exactly one cell, like an amoeba.",
+      answer: "Unicellular" }
   - { category: "Cells & Classification", level: "7th Grade", value: 200,
-      question: "This rigid outer layer made of cellulose gives plant cells their shape and is NOT found in animal cells.",
+      question: "Stiff outer layer of cellulose that gives a plant cell its shape. Your cells skip it.",
       answer: "The cell wall" }
   - { category: "Cells & Classification", level: "7th Grade", value: 200,
-      question: "The two-word naming system (Genus and species) used to give each organism a scientific name.",
+      question: "The cell's gatekeeper, letting some things in and keeping others out (selectively permeable).",
+      answer: "The cell membrane" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 200,
+      question: "The jelly that fills a cell and holds the organelles in place.",
+      answer: "Cytoplasm" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 200,
+      question: "Two-name system that makes a human Homo sapiens and not just 'person.'",
       answer: "Binomial nomenclature" }
   - { category: "Cells & Classification", level: "7th Grade", value: 300,
-      question: "The organelle nicknamed the 'powerhouse of the cell' because it releases energy from food.",
-      answer: "The mitochondrion (mitochondria)" }
+      question: "The cell's control room. Holds the DNA and runs the show.",
+      answer: "The nucleus" }
   - { category: "Cells & Classification", level: "7th Grade", value: 300,
-      question: "Bacteria are single-celled organisms that lack this cell structure found in plant and animal cells.",
+      question: "Burns food for energy. You know the slogan: powerhouse of the cell.",
+      answer: "The mitochondria" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 300,
+      question: "Bacteria are prokaryotes, which means they get by without this organelle.",
       answer: "A nucleus" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 300,
+      question: "The kingdom whose members build their own food out of sunlight.",
+      answer: "Plantae (plants)" }
   - { category: "Cells & Classification", level: "7th Grade", value: 400,
-      question: "This green pigment inside chloroplasts captures light energy for photosynthesis.",
+      question: "The green organelle where a plant turns sunlight into sugar.",
+      answer: "A chloroplast" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 400,
+      question: "The green pigment inside that organelle, the part that actually catches the light.",
       answer: "Chlorophyll" }
   - { category: "Cells & Classification", level: "7th Grade", value: 400,
-      question: "Fill in the missing level: Kingdom, Phylum, Class, ____, Family, Genus, Species.",
+      question: "Fill the gap: Kingdom, Phylum, Class, ____, Family, Genus, Species.",
       answer: "Order" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 400,
+      question: "The broadest rank of all, one level up from kingdom.",
+      answer: "Domain" }
   - { category: "Cells & Classification", level: "7th Grade", value: 500,
-      question: "Robert Hooke first used the word 'cell' in 1665 after looking at a thin slice of this tree-bark material.",
+      question: "Robert Hooke coined 'cell' in 1665 staring at a slice of this bark, which looked like tiny rooms.",
       answer: "Cork" }
   - { category: "Cells & Classification", level: "7th Grade", value: 500,
-      question: "This Swedish scientist created the modern system for classifying and naming living things in the 1700s.",
+      question: "The 18th-century Swede who filed every known living thing into the system we still use.",
       answer: "Carolus Linnaeus" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 500,
+      question: "The big idea in three parts: all life is cells, the cell is life's basic unit, and cells come only from other cells.",
+      answer: "Cell theory" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 500,
+      question: "Bacteria and Archaea are the other two of life's three great branches. We sit in the third.",
+      answer: "Eukarya" }
 
   # ---------- Human Body ----------
   - { category: "Human Body", level: "7th Grade", value: 100,
-      question: "The muscular organ that pumps blood throughout your body.",
+      question: "Fist-sized pump that beats around 100,000 times a day without a break.",
       answer: "The heart" }
   - { category: "Human Body", level: "7th Grade", value: 100,
-      question: "The body's largest organ, which protects you and helps control body temperature.",
+      question: "Your largest organ, and the only one you wear on the outside.",
       answer: "The skin" }
+  - { category: "Human Body", level: "7th Grade", value: 100,
+      question: "The pair of spongy organs that fill with air every time you breathe in.",
+      answer: "The lungs" }
+  - { category: "Human Body", level: "7th Grade", value: 100,
+      question: "The system, roughly 600 strong, whose fibers contract and relax to move your bones.",
+      answer: "The muscular system" }
   - { category: "Human Body", level: "7th Grade", value: 200,
-      question: "This body system includes the lungs and brings in oxygen while removing carbon dioxide.",
+      question: "Brings in the air you need and pushes out carbon dioxide. The lungs are its headquarters.",
       answer: "The respiratory system" }
   - { category: "Human Body", level: "7th Grade", value: 200,
-      question: "The system of bones that supports the body, allows movement, and protects organs like the brain.",
+      question: "Your built-in frame: holds you up and shields soft parts like the brain.",
       answer: "The skeletal system" }
+  - { category: "Human Body", level: "7th Grade", value: 200,
+      question: "A churning bag of acid strong enough to dissolve metal (slowly), where digestion gets going in earnest.",
+      answer: "The stomach" }
+  - { category: "Human Body", level: "7th Grade", value: 200,
+      question: "A newborn has about 300; by adulthood some have fused and you're left with this many bones.",
+      answer: "206" }
   - { category: "Human Body", level: "7th Grade", value: 300,
-      question: "The system of the heart and blood vessels that transports oxygen and nutrients to cells.",
+      question: "Heart plus a 60,000-mile network of vessels, all to deliver oxygen and food.",
       answer: "The circulatory system" }
   - { category: "Human Body", level: "7th Grade", value: 300,
-      question: "The control center of the nervous system, protected inside the skull.",
+      question: "Three pounds of wrinkled tissue behind your eyes, running the whole nervous system.",
       answer: "The brain" }
+  - { category: "Human Body", level: "7th Grade", value: 300,
+      question: "Red blood cells grab this gas in the lungs and hand it off to every cell.",
+      answer: "Oxygen" }
+  - { category: "Human Body", level: "7th Grade", value: 300,
+      question: "The body's wiring: cells that fire electrical signals to carry messages.",
+      answer: "Neurons" }
   - { category: "Human Body", level: "7th Grade", value: 400,
-      question: "The longest section of the digestive tract, where most nutrients are absorbed into the blood.",
+      question: "About 20 feet of coiled tube where most of your food actually gets absorbed.",
       answer: "The small intestine" }
   - { category: "Human Body", level: "7th Grade", value: 400,
-      question: "The pair of bean-shaped organs that filter wastes from the blood to make urine.",
+      question: "Two bean-shaped filters that clean your blood and bottle the waste as urine.",
       answer: "The kidneys" }
+  - { category: "Human Body", level: "7th Grade", value: 400,
+      question: "Largest organ inside you. Detoxes the blood and makes bile to break down fat.",
+      answer: "The liver" }
+  - { category: "Human Body", level: "7th Grade", value: 400,
+      question: "Arteries and veins are the highways; these are the one-cell-wide alleys where the trade happens.",
+      answer: "Capillaries" }
   - { category: "Human Body", level: "7th Grade", value: 500,
-      question: "These tiny air sacs in the lungs are where oxygen passes into the bloodstream.",
+      question: "300 million tiny air sacs in your lungs, where the air you breathe finally crosses into the blood.",
       answer: "Alveoli" }
   - { category: "Human Body", level: "7th Grade", value: 500,
-      question: "Chemical messengers such as adrenaline and insulin, released by glands of the endocrine system.",
+      question: "Chemical messengers like adrenaline and insulin, mailed through the blood by glands.",
       answer: "Hormones" }
+  - { category: "Human Body", level: "7th Grade", value: 500,
+      question: "The iron-rich protein that makes blood red and ferries the gas your cells are after.",
+      answer: "Hemoglobin" }
+  - { category: "Human Body", level: "7th Grade", value: 500,
+      question: "Your defense department: white blood cells, antibodies, and fever, versus the invaders.",
+      answer: "The immune system" }
 
   # ---------- Genetics ----------
   - { category: "Genetics", level: "7th Grade", value: 100,
-      question: "The molecule that carries genetic instructions, shaped like a twisted ladder (double helix).",
+      question: "The twisted-ladder molecule that stores your genetic code in four letters: A, T, G, C.",
       answer: "DNA" }
   - { category: "Genetics", level: "7th Grade", value: 100,
-      question: "A segment of DNA that codes for a particular trait.",
+      question: "A stretch of DNA that spells out one instruction, like 'make brown eyes.'",
       answer: "A gene" }
+  - { category: "Genetics", level: "7th Grade", value: 100,
+      question: "The passing of traits from parents to kids. Why you've got your mom's nose.",
+      answer: "Heredity" }
+  - { category: "Genetics", level: "7th Grade", value: 100,
+      question: "A feature you can inherit: eye color, dimples, the knack for rolling your tongue.",
+      answer: "A trait" }
   - { category: "Genetics", level: "7th Grade", value: 200,
-      question: "An allele whose trait is hidden whenever a dominant allele is present is called this.",
+      question: "An allele that hides whenever its dominant partner shows up. Written lowercase, by convention.",
       answer: "Recessive" }
   - { category: "Genetics", level: "7th Grade", value: 200,
-      question: "The form of a gene that shows up even when only one copy is present, often written as a capital letter.",
-      answer: "Dominant (allele)" }
+      question: "The allele that wins with a single copy. Written as a capital letter.",
+      answer: "Dominant" }
+  - { category: "Genetics", level: "7th Grade", value: 200,
+      question: "Different versions of the same gene, like B for brown and b for blue.",
+      answer: "Alleles" }
+  - { category: "Genetics", level: "7th Grade", value: 200,
+      question: "The two-strand spiral shape of DNA, worked out by Watson, Crick, and Franklin in 1953.",
+      answer: "The double helix" }
   - { category: "Genetics", level: "7th Grade", value: 300,
-      question: "This monk's experiments breeding pea plants made him the 'father of genetics.'",
+      question: "The pea-breeding monk who cracked the rules of inheritance in a monastery garden.",
       answer: "Gregor Mendel" }
   - { category: "Genetics", level: "7th Grade", value: 300,
-      question: "The threadlike structures in the nucleus that carry genes; humans have 46.",
+      question: "Bundles of coiled DNA in the nucleus. You carry 46; a fruit fly makes do with 8.",
       answer: "Chromosomes" }
+  - { category: "Genetics", level: "7th Grade", value: 300,
+      question: "Word for two matching gene versions, BB or bb. Older books call it purebred.",
+      answer: "Homozygous" }
+  - { category: "Genetics", level: "7th Grade", value: 300,
+      question: "Of the two sex chromosomes, the one a typical male has that a typical female doesn't.",
+      answer: "The Y chromosome" }
   - { category: "Genetics", level: "7th Grade", value: 400,
-      question: "A box-shaped diagram used to predict the probability of offspring inheriting traits.",
+      question: "The four-box grid that turns a cross into the odds of each kind of offspring.",
       answer: "A Punnett square" }
   - { category: "Genetics", level: "7th Grade", value: 400,
-      question: "An organism carrying two different alleles for a trait, such as Bb, is said to be this.",
-      answer: "Heterozygous (a hybrid)" }
+      question: "Two different gene versions, like Bb. Also called a hybrid.",
+      answer: "Heterozygous" }
+  - { category: "Genetics", level: "7th Grade", value: 400,
+      question: "The gene-version combo written in letters, like Bb. The recipe, not the dish.",
+      answer: "The genotype" }
+  - { category: "Genetics", level: "7th Grade", value: 400,
+      question: "Red-green color blindness rides on the X, so it's called this kind of trait, and it strikes boys far more often.",
+      answer: "Sex-linked" }
   - { category: "Genetics", level: "7th Grade", value: 500,
-      question: "If 'Bb' is the genotype, this term describes the physical trait you actually see, such as brown eyes.",
+      question: "The trait you can actually see, like brown eyes. The dish, not the recipe.",
       answer: "The phenotype" }
   - { category: "Genetics", level: "7th Grade", value: 500,
-      question: "A change in a DNA sequence, which can create new variation in a trait.",
+      question: "A typo in the DNA. Sometimes harmful, sometimes the raw material for evolution.",
       answer: "A mutation" }
+  - { category: "Genetics", level: "7th Grade", value: 500,
+      question: "Before a cell splits it copies its DNA in this process, so each half gets a full set.",
+      answer: "Replication" }
+  - { category: "Genetics", level: "7th Grade", value: 500,
+      question: "DNA's single-stranded cousin, the one that carries instructions out to build proteins.",
+      answer: "RNA" }
 
   # ---------- Ecology ----------
   - { category: "Ecology", level: "7th Grade", value: 100,
-      question: "An organism that makes its own food, such as a green plant.",
-      answer: "A producer (autotroph)" }
+      question: "Makes its own food from sunlight. A green plant, usually, feeding everything above it.",
+      answer: "A producer" }
   - { category: "Ecology", level: "7th Grade", value: 100,
-      question: "An animal that eats only plants.",
+      question: "Eats only plants. Think cow, rabbit, grasshopper.",
       answer: "A herbivore" }
+  - { category: "Ecology", level: "7th Grade", value: 100,
+      question: "Eats only other animals. Think wolf, hawk, shark.",
+      answer: "A carnivore" }
+  - { category: "Ecology", level: "7th Grade", value: 100,
+      question: "Eats both plants and meat. Think bear, pig, you.",
+      answer: "An omnivore" }
   - { category: "Ecology", level: "7th Grade", value: 200,
-      question: "A model that uses arrows to show how energy passes from one organism to another as food.",
-      answer: "A food chain (or food web)" }
+      question: "Arrows tracing who eats whom, from grass to grasshopper to bird.",
+      answer: "A food chain" }
   - { category: "Ecology", level: "7th Grade", value: 200,
-      question: "All the living and nonliving things interacting together in a particular area.",
+      question: "Everything in an area, living and nonliving, interacting at once.",
       answer: "An ecosystem" }
+  - { category: "Ecology", level: "7th Grade", value: 200,
+      question: "Many food chains tangled together, since most things eat more than one food.",
+      answer: "A food web" }
+  - { category: "Ecology", level: "7th Grade", value: 200,
+      question: "The specific place an organism lives and finds what it needs.",
+      answer: "A habitat" }
   - { category: "Ecology", level: "7th Grade", value: 300,
-      question: "Organisms like fungi and bacteria that break down dead matter and return nutrients to the soil.",
+      question: "Fungi and bacteria that break down the dead and recycle the nutrients back into the soil.",
       answer: "Decomposers" }
   - { category: "Ecology", level: "7th Grade", value: 300,
-      question: "In a predator-prey relationship, the animal that is hunted and eaten is called this.",
+      question: "In a hunt, the one being chased and eaten.",
       answer: "The prey" }
+  - { category: "Ecology", level: "7th Grade", value: 300,
+      question: "In a hunt, the one doing the chasing.",
+      answer: "The predator" }
+  - { category: "Ecology", level: "7th Grade", value: 300,
+      question: "Can't make its own food, so it eats other organisms to get energy.",
+      answer: "A consumer" }
   - { category: "Ecology", level: "7th Grade", value: 400,
-      question: "The original source of almost all energy for life on Earth.",
+      question: "Trace almost any food chain back far enough and the energy started here.",
       answer: "The Sun" }
   - { category: "Ecology", level: "7th Grade", value: 400,
-      question: "A close, long-term relationship between two different species, such as a bee and a flower.",
+      question: "A close, long-term relationship between two species living together.",
       answer: "Symbiosis" }
+  - { category: "Ecology", level: "7th Grade", value: 400,
+      question: "Symbiosis where both sides win, like a bee fed by the flower it pollinates.",
+      answer: "Mutualism" }
+  - { category: "Ecology", level: "7th Grade", value: 400,
+      question: "A foreign newcomer that explodes in number because nothing here eats it, like zebra mussels in the Great Lakes.",
+      answer: "An invasive species" }
   - { category: "Ecology", level: "7th Grade", value: 500,
-      question: "Roughly this percentage of energy is passed to the next level each step up a food chain.",
-      answer: "About 10 percent" }
+      question: "Climb one rung of a food chain and only about this much energy carries up; the other 90% is lost, mostly as heat.",
+      answer: "10 percent" }
   - { category: "Ecology", level: "7th Grade", value: 500,
-      question: "The largest population of a species that an environment can support over the long term.",
-      answer: "The carrying capacity" }
+      question: "The largest population an environment can feed and house for the long haul.",
+      answer: "Carrying capacity" }
+  - { category: "Ecology", level: "7th Grade", value: 500,
+      question: "An organism's role: its job description in the community where it lives.",
+      answer: "A niche" }
+  - { category: "Ecology", level: "7th Grade", value: 500,
+      question: "Diagram stacked widest at the bottom, narrowing at each level as the energy thins out.",
+      answer: "An energy pyramid" }

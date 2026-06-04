@@ -1,101 +1,192 @@
 # ============================================================
 # PHYSICAL SCIENCE question library  (level: "7th Grade")
-# Depth target: 2 questions per (category, value).
+# Depth: 4 questions per (category, value).
+# Rule: a clue never contains its own answer word (or its root).
 # ============================================================
 questions:
 
   # ---------- Matter & Atoms ----------
   - { category: "Matter & Atoms", level: "7th Grade", value: 100,
-      question: "Anything that has mass and takes up space.",
+      question: "Anything with mass that takes up space. This desk, the air, you.",
       answer: "Matter" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 100,
-      question: "The smallest particle of an element that still has the properties of that element.",
+      question: "The smallest piece of gold that is still gold; split it and it stops being gold.",
       answer: "An atom" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 100,
+      question: "How much stuff is in an object. Doesn't change if you fly it to the Moon.",
+      answer: "Mass" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 100,
+      question: "Definite volume, no definite shape. Pour it and it takes the shape of the cup.",
+      answer: "A liquid" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 200,
-      question: "The state of matter that has both a definite shape and a definite volume.",
+      question: "Definite shape and volume. Its particles are locked in place, just vibrating.",
       answer: "A solid" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 200,
-      question: "The positively charged particle found in the nucleus of an atom.",
+      question: "Positive particle in the atom's core. Count them and you know which substance you've got.",
       answer: "A proton" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 200,
+      question: "The core particle with no charge at all, riding along beside the positive ones.",
+      answer: "A neutron" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 200,
+      question: "No fixed shape or volume; it spreads to fill whatever container it is in.",
+      answer: "A gas" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 300,
-      question: "The change of state when a liquid turns into a gas.",
-      answer: "Evaporation (vaporization)" }
+      question: "Liquid slipping into vapor, like a puddle vanishing on a warm afternoon.",
+      answer: "Evaporation" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 300,
-      question: "The chart that organizes all the known elements by their properties.",
+      question: "The chart of about 118 pure substances, sorted so the columns share properties.",
       answer: "The periodic table" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 300,
+      question: "Liquid locking up into a solid, like water at 0 degrees Celsius.",
+      answer: "Freezing" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 300,
+      question: "Vapor turning back into liquid, the dew on morning grass.",
+      answer: "Condensation" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 400,
-      question: "The change of state directly from a solid to a gas, as when dry ice 'smokes.'",
+      question: "Solid jumping straight to vapor, no liquid in between. Watch dry ice 'smoke.'",
       answer: "Sublimation" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 400,
-      question: "The number of protons in an atom, which determines what element it is.",
+      question: "An atom's ID, equal to how many positive particles it carries.",
       answer: "The atomic number" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 400,
+      question: "The dense center of an atom, where its positive and neutral particles are packed.",
+      answer: "The nucleus" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 400,
+      question: "A pure substance that can't be broken into anything simpler, like gold, oxygen, or iron.",
+      answer: "An element" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 500,
-      question: "This fourth state of matter, found in stars and lightning, is a superheated ionized gas.",
+      question: "The most common state of matter in the universe (stars, lightning): a superheated, ionized gas.",
       answer: "Plasma" }
   - { category: "Matter & Atoms", level: "7th Grade", value: 500,
-      question: "These negatively charged particles move around the nucleus in energy levels.",
+      question: "Negative particles buzzing around the atom's core, out in shells.",
       answer: "Electrons" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 500,
+      question: "Mass packed into a volume. Come in under water's and you float.",
+      answer: "Density" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 500,
+      question: "Each vertical column of the table; the members all react in similar ways.",
+      answer: "A group (family)" }
 
   # ---------- Forces & Energy ----------
   - { category: "Forces & Energy", level: "7th Grade", value: 100,
-      question: "A push or a pull acting on an object.",
+      question: "A push or a pull. Measured in newtons.",
       answer: "A force" }
   - { category: "Forces & Energy", level: "7th Grade", value: 100,
-      question: "The type of energy an object has because it is moving.",
+      question: "Comes from motion: a rolling ball has it, a parked one doesn't.",
       answer: "Kinetic energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 100,
+      question: "Distance covered per unit of time, like 60 miles per hour.",
+      answer: "Speed" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 100,
+      question: "The SI unit of energy or work; lifting a small apple about a meter takes roughly one.",
+      answer: "A joule" }
   - { category: "Forces & Energy", level: "7th Grade", value: 200,
-      question: "The force that pulls objects toward the center of the Earth.",
+      question: "The pull that drops the apple and keeps the Moon from drifting away.",
       answer: "Gravity" }
   - { category: "Forces & Energy", level: "7th Grade", value: 200,
-      question: "Stored energy due to an object's position, like a ball held at the top of a hill.",
+      question: "Stored and waiting because of position, like a boulder at a cliff's edge.",
       answer: "Potential energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 200,
+      question: "Locked inside food, gasoline, and batteries; reactions set it loose.",
+      answer: "Chemical energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 200,
+      question: "Gravity's pull on your mass. On the Moon it drops to a sixth, though your mass doesn't budge.",
+      answer: "Weight" }
   - { category: "Forces & Energy", level: "7th Grade", value: 300,
-      question: "Newton's First Law says an object at rest stays at rest unless acted on by an unbalanced one of these.",
-      answer: "A force" }
+      question: "Newton's First Law: an object stays put, or keeps coasting, until one of these acts on it.",
+      answer: "An unbalanced force" }
   - { category: "Forces & Energy", level: "7th Grade", value: 300,
-      question: "This law states energy cannot be created or destroyed, only changed from one form to another.",
+      question: "Energy is never created or destroyed, only changed from one form into another.",
       answer: "The law of conservation of energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 300,
+      question: "Newton's Second Law: force equals mass times this.",
+      answer: "Acceleration" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 300,
+      question: "An object's resistance to a change in its motion. More mass, more of it.",
+      answer: "Inertia" }
   - { category: "Forces & Energy", level: "7th Grade", value: 400,
-      question: "The force that opposes motion whenever two surfaces rub against each other.",
+      question: "The grippy force between two surfaces that drags moving things to a stop.",
       answer: "Friction" }
   - { category: "Forces & Energy", level: "7th Grade", value: 400,
-      question: "The transfer of thermal energy through direct contact between particles, as a metal spoon heats in soup.",
+      question: "Heat creeping along by direct contact, like a spoon warming in a bowl of soup.",
       answer: "Conduction" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 400,
+      question: "Newton's Third Law: every action force is met by an equal and opposite one of these.",
+      answer: "A reaction force" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 400,
+      question: "Mass times how fast it's moving. A loaded truck has plenty, which is why it can't stop on a dime.",
+      answer: "Momentum" }
   - { category: "Forces & Energy", level: "7th Grade", value: 500,
-      question: "Speed measured in a specific direction is called this.",
+      question: "Speed with a direction stapled on, like 60 mph due north.",
       answer: "Velocity" }
   - { category: "Forces & Energy", level: "7th Grade", value: 500,
-      question: "The transfer of heat through a gas or liquid by rising warm currents and sinking cool ones.",
+      question: "Heat carried by a moving fluid: warm rises, cool sinks, the loop in a pot of water.",
       answer: "Convection" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 500,
+      question: "Heat crossing 93 million miles of empty space from the Sun, no contact needed.",
+      answer: "Radiation" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 500,
+      question: "How fast work gets done or energy is delivered, measured in watts.",
+      answer: "Power" }
 
   # ---------- Reactions & Mixtures ----------
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
-      question: "Two or more materials physically combined but not chemically joined, such as a tossed salad.",
+      question: "Two things stirred together but not chemically joined, like a tossed salad.",
       answer: "A mixture" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
-      question: "Often called the 'universal solvent,' this liquid dissolves more substances than any other.",
+      question: "The 'universal solvent,' dissolving more substances than any other liquid.",
       answer: "Water" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
+      question: "A change in form only, with no new substance made: ice melting, paper torn.",
+      answer: "A physical change" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
+      question: "In salt water it's the water: the part doing the dissolving, and the larger share.",
+      answer: "The solvent" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
-      question: "A mixture that is blended evenly throughout, like salt fully dissolved in water.",
-      answer: "A solution (homogeneous mixture)" }
+      question: "A mixture blended so evenly you can't pick out the parts, like salt stirred into water.",
+      answer: "A solution" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
-      question: "A mixture that is NOT blended evenly, like sand in water, where you can still see the parts.",
+      question: "A mixture you can still see the separate pieces of, like sand poured into water.",
       answer: "A heterogeneous mixture" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
+      question: "In salt water it's the salt: the part that dissolves and seems to disappear.",
+      answer: "The solute" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
+      question: "Separating a mixture by straining it through a mesh, the way a coffee maker holds back the grounds.",
+      answer: "Filtration" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
-      question: "A change that forms a brand-new substance, such as iron rusting or wood burning.",
-      answer: "A chemical change (reaction)" }
+      question: "A change that makes a brand-new substance: iron rusting, wood burning.",
+      answer: "A chemical change" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
-      question: "On the pH scale a substance below 7 is an acid; a substance above 7 is this.",
-      answer: "A base (alkaline)" }
+      question: "Above 7 on the pH scale, slippery to the touch, like soap or baking soda.",
+      answer: "A base" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
+      question: "Below 7 on the pH scale, sour to the taste, like lemon juice or vinegar.",
+      answer: "An acid" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
+      question: "The 0-to-14 ruler for how acidic or basic something is.",
+      answer: "The pH scale" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
-      question: "In a chemical reaction, the starting substances are called this.",
+      question: "The starting ingredients you feed in, before any new substance forms.",
       answer: "The reactants" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
-      question: "The new substances formed and left over after a chemical reaction are called these.",
+      question: "Whatever comes out the far side once the change is done.",
       answer: "The products" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
+      question: "Speeds a reaction along without being used up itself.",
+      answer: "A catalyst" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
+      question: "Bubbles, a color shift, a jump in temperature: signs that one of these just happened.",
+      answer: "A chemical reaction" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
-      question: "This law states that the total mass stays the same before and after a chemical reaction.",
+      question: "What goes in weighs exactly what comes out; a reaction creates and destroys none of it. Lavoisier's law.",
       answer: "The law of conservation of mass" }
   - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
-      question: "A reaction that releases energy as heat, such as burning or an explosion, is called this.",
+      question: "A reaction that gives off heat, like a campfire or an explosion.",
       answer: "Exothermic" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
+      question: "A reaction that soaks up heat and turns cold, like an instant cold pack.",
+      answer: "Endothermic" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
+      question: "Shorthand with element symbols and an arrow, showing what goes in and what comes out.",
+      answer: "A chemical equation" }

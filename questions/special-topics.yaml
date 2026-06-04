@@ -1,0 +1,136 @@
+# ============================================================
+# SPECIAL TOPICS question library  (level: "Earth & Space (8-9)")
+# Four focused categories, 10 questions each (2 per value).
+# Header shows the category name, so no cell's answer is the
+# category name itself. Rule: a clue never contains its own
+# answer word, nor a neighbor cell's answer.
+# ============================================================
+questions:
+
+  # ================= Plate Tectonics =================
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 100,
+      question: "The rigid slabs of Earth's shell that drift a few centimeters a year, about as fast as your fingernails grow.",
+      answer: "Tectonic plates" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 100,
+      question: "The man who proposed continental drift in 1912, dismissed for years because he couldn't say what moved the continents.",
+      answer: "Alfred Wegener" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 200,
+      question: "The single supercontinent that all of today's land once belonged to, before it broke apart.",
+      answer: "Pangaea" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 200,
+      question: "The boundary where two plates pull apart and magma rises to fill the gap with fresh crust.",
+      answer: "A divergent boundary" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 300,
+      question: "The boundary where two plates grind sideways past each other, loading up strain for big quakes, like California's San Andreas.",
+      answer: "A transform boundary" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 300,
+      question: "The boundary where two plates collide and the denser one is forced downward, often raising a line of volcanoes.",
+      answer: "A convergent boundary" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 400,
+      question: "The downward dive of one plate beneath another, recycling old crust back into the mantle.",
+      answer: "Subduction" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 400,
+      question: "The slow churn of heat rising and sinking in the mantle, the engine most scientists think drives the plates.",
+      answer: "Convection currents" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 500,
+      question: "The 1960s discovery that new ocean crust is born at mid-ocean ridges and creeps outward, the proof that continents really move.",
+      answer: "Sea-floor spreading" }
+  - { category: "Plate Tectonics", level: "Earth & Space (8-9)", value: 500,
+      question: "Deep gashes in the sea floor, the lowest spots on the planet, carved where one plate plunges beneath another.",
+      answer: "Ocean trenches" }
+
+  # ================= Big Bang Theory =================
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 100,
+      question: "Galaxies are flying apart in every direction, telling us the whole universe is doing this.",
+      answer: "Expanding" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 100,
+      question: "Astronomers clock the universe at roughly this old.",
+      answer: "About 13.8 billion years" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 200,
+      question: "The rule that the farther away a galaxy lies, the faster it races from us, the cornerstone evidence the cosmos is growing.",
+      answer: "Hubble's Law" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 200,
+      question: "The faint, even glow of radiation filling all of space, the leftover heat of the universe's first moments.",
+      answer: "The cosmic microwave background (CMB)" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 300,
+      question: "In its first few minutes the young universe forged mostly these two lightest elements, in about a 3-to-1 ratio.",
+      answer: "Hydrogen and helium" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 300,
+      question: "The reddening of light from galaxies racing away from us, direct evidence the universe is growing.",
+      answer: "Redshift" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 400,
+      question: "Before the Big Bang won out, this rival 'unchanging universe' idea claimed new material appears nonstop to fill the gaps; fresh evidence sank it.",
+      answer: "The Steady State theory" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 400,
+      question: "The mysterious push, discovered in 1998, making the universe fly apart faster and faster instead of slowing down.",
+      answer: "Dark energy" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 500,
+      question: "About 27% of the universe is this unseen stuff, detected only by its gravity, dwarfing all the stars and gas.",
+      answer: "Dark matter" }
+  - { category: "Big Bang Theory", level: "Earth & Space (8-9)", value: 500,
+      question: "If gravity ever wins, it could pull everything back together, ending the cosmos in this fiery mirror image of its birth.",
+      answer: "The Big Crunch" }
+
+  # ================= Gravity =================
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 100,
+      question: "In a vacuum a feather and a bowling ball fall side by side and land together, because gravity gives every object the same of these.",
+      answer: "Acceleration" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 100,
+      question: "Your weight would drop to one-sixth here, since its surface pull is one-sixth of Earth's.",
+      answer: "The Moon" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 200,
+      question: "The English scientist whose 1687 law of universal gravitation explained both falling apples and the motion of the planets.",
+      answer: "Isaac Newton" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 200,
+      question: "Gravity keeps planets and satellites on this curved, forever-falling path around a larger body.",
+      answer: "An orbit" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 300,
+      question: "Two things set the pull between objects: their masses and this, how far apart they sit.",
+      answer: "Distance (separation)" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 300,
+      question: "The boundary around a black hole past which nothing, not even light, can ever return.",
+      answer: "The event horizon" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 400,
+      question: "The physicist who recast gravity not as a force but as the bending of space and time by mass.",
+      answer: "Albert Einstein" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 400,
+      question: "Mass and energy curve this four-dimensional fabric, and that curvature is what we feel as gravity.",
+      answer: "Spacetime" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 500,
+      question: "Ripples spreading through the universe itself, set off by colliding black holes, first caught by LIGO in 2015.",
+      answer: "Gravitational waves" }
+  - { category: "Gravity", level: "Earth & Space (8-9)", value: 500,
+      question: "The speed a rocket must reach to break free of Earth's pull for good, about 11 kilometers per second.",
+      answer: "Escape velocity" }
+
+  # ================= Climate Crisis =================
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 100,
+      question: "The heat-trapping gas released whenever we burn fuel for energy, the main driver of today's warming.",
+      answer: "Carbon dioxide (CO2)" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 100,
+      question: "The natural warming that happens when gases in the air trap the Sun's heat, now running too strong for comfort.",
+      answer: "The greenhouse effect" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 200,
+      question: "Coal, oil, and natural gas: the ancient buried remains of living things, whose burning drives most of our emissions.",
+      answer: "Fossil fuels" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 200,
+      question: "A heat-trapping gas, molecule for molecule far stronger than the most common one, leaking from cows, rice paddies, and gas wells.",
+      answer: "Methane" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 300,
+      question: "Warmer oceans swell and land ice melts, driving this slow, steady threat to coastal cities upward.",
+      answer: "Sea level rise" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 300,
+      question: "The 2015 treaty in which nearly every country pledged to hold global warming well below 2 degrees Celsius.",
+      answer: "The Paris Agreement" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 400,
+      question: "Bright ice melts, baring dark land and water that soak up more sunlight and warm faster still, a self-reinforcing one of these.",
+      answer: "A feedback loop" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 400,
+      question: "About a quarter of our emissions sink into the seas, lowering their pH and eating away at shells and coral reefs.",
+      answer: "Ocean acidification" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 500,
+      question: "The U.N. scientific panel, a 2007 Nobel Peace Prize winner, that issues the world's consensus reports on a warming planet.",
+      answer: "The IPCC (Intergovernmental Panel on Climate Change)" }
+  - { category: "Climate Crisis", level: "Earth & Space (8-9)", value: 500,
+      question: "Power drawn from sun, wind, and water that burns nothing and adds no pollution to the air, the clean replacement we're racing to scale up.",
+      answer: "Renewable energy" }

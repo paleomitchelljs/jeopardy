@@ -2,7 +2,7 @@
 
 A static, no-build Jeopardy board for the classroom. Questions live in an editable
 **library** (YAML); at game time you choose a level, pick category-columns, and the
-board **draws a random question** for each category + value cell. Set up 1–5 teams,
+board **draws a random question** for each category + value cell. Set up 1–7 teams,
 click a square to show the question full-screen, then award the points to a team (or
 to no one). Used squares blank out automatically.
 
@@ -96,7 +96,7 @@ files:
 
 - **Build Board (left panel):** choose a level, check up to 6 categories, pick the
   point tier, and click **Generate Board**. Re-click any time to reshuffle.
-- **Teams:** choose 1–5. Click a team name to rename it. The `+`/`−` buttons (±100)
+- **Teams:** choose 1–7. Click a team name to rename it. The `+`/`−` buttons (±100)
   fix scores manually.
 - **Play a square:** click it → the question fills the screen → optionally **Reveal
   Answer** → click the team that got it right, or **No Team**. The square blanks and
@@ -108,17 +108,21 @@ files:
 
 ## Included content
 
-120 questions across 9 categories and 2 levels:
+280 questions across 13 categories and 2 levels:
 
-- **7th Grade** — *Cells & Classification, Human Body, Genetics, Ecology* (life),
-  *Matter & Atoms, Forces & Energy, Reactions & Mixtures* (physical) — 2 per cell.
-- **Earth & Space (Gr 8–9)** — *Geology* (Earth's layers, plate tectonics, rocks,
-  earthquakes/volcanoes, weathering) and *Astronomy* (solar system, stars, Earth/Moon,
-  exploration, the universe) — 5 per cell, so columns draw from a real pool.
+- **7th Grade** (`life-science.yaml`, `physical-science.yaml`) — *Cells & Classification,
+  Human Body, Genetics, Ecology, Matter & Atoms, Forces & Energy, Reactions & Mixtures* —
+  4 per cell.
+- **Earth & Space, Gr 8–9** (`earth-space.yaml`) — *Geology* and *Astronomy* — 10 per
+  cell, so columns draw from a deep pool.
+- **Earth & Space, Gr 8–9** (`special-topics.yaml`) — *Plate Tectonics, Big Bang Theory,
+  Gravity, Climate Crisis* — 10 questions each (2 per cell).
 
 > Clues are written in plain "question → answer" form (clearer for class) rather than
 > the show's "answer → question" phrasing. Edit any entry's `question`/`answer` to
-> switch styles.
+> switch styles. Two rules the bundled clues follow, worth keeping if you add your own:
+> a clue never contains its own answer word, and (within a category) avoids naming a
+> neighboring cell's answer.
 
 ## Notes / roadmap
 
