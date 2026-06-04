@@ -1,0 +1,134 @@
+# ============================================================
+# LIFE SCIENCE question library  (level: "7th Grade")
+# Flat list of entries. Each is tagged with category + value.
+# Depth target: 2 questions per (category, value). Add more freely.
+# ============================================================
+questions:
+
+  # ---------- Cells & Classification ----------
+  - { category: "Cells & Classification", level: "7th Grade", value: 100,
+      question: "The basic unit of structure and function in all living things.",
+      answer: "The cell" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 100,
+      question: "The kingdom that includes mushrooms, molds, and yeast.",
+      answer: "Fungi" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 200,
+      question: "This rigid outer layer made of cellulose gives plant cells their shape and is NOT found in animal cells.",
+      answer: "The cell wall" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 200,
+      question: "The two-word naming system (Genus and species) used to give each organism a scientific name.",
+      answer: "Binomial nomenclature" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 300,
+      question: "The organelle nicknamed the 'powerhouse of the cell' because it releases energy from food.",
+      answer: "The mitochondrion (mitochondria)" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 300,
+      question: "Bacteria are single-celled organisms that lack this cell structure found in plant and animal cells.",
+      answer: "A nucleus" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 400,
+      question: "This green pigment inside chloroplasts captures light energy for photosynthesis.",
+      answer: "Chlorophyll" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 400,
+      question: "Fill in the missing level: Kingdom, Phylum, Class, ____, Family, Genus, Species.",
+      answer: "Order" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 500,
+      question: "Robert Hooke first used the word 'cell' in 1665 after looking at a thin slice of this tree-bark material.",
+      answer: "Cork" }
+  - { category: "Cells & Classification", level: "7th Grade", value: 500,
+      question: "This Swedish scientist created the modern system for classifying and naming living things in the 1700s.",
+      answer: "Carolus Linnaeus" }
+
+  # ---------- Human Body ----------
+  - { category: "Human Body", level: "7th Grade", value: 100,
+      question: "The muscular organ that pumps blood throughout your body.",
+      answer: "The heart" }
+  - { category: "Human Body", level: "7th Grade", value: 100,
+      question: "The body's largest organ, which protects you and helps control body temperature.",
+      answer: "The skin" }
+  - { category: "Human Body", level: "7th Grade", value: 200,
+      question: "This body system includes the lungs and brings in oxygen while removing carbon dioxide.",
+      answer: "The respiratory system" }
+  - { category: "Human Body", level: "7th Grade", value: 200,
+      question: "The system of bones that supports the body, allows movement, and protects organs like the brain.",
+      answer: "The skeletal system" }
+  - { category: "Human Body", level: "7th Grade", value: 300,
+      question: "The system of the heart and blood vessels that transports oxygen and nutrients to cells.",
+      answer: "The circulatory system" }
+  - { category: "Human Body", level: "7th Grade", value: 300,
+      question: "The control center of the nervous system, protected inside the skull.",
+      answer: "The brain" }
+  - { category: "Human Body", level: "7th Grade", value: 400,
+      question: "The longest section of the digestive tract, where most nutrients are absorbed into the blood.",
+      answer: "The small intestine" }
+  - { category: "Human Body", level: "7th Grade", value: 400,
+      question: "The pair of bean-shaped organs that filter wastes from the blood to make urine.",
+      answer: "The kidneys" }
+  - { category: "Human Body", level: "7th Grade", value: 500,
+      question: "These tiny air sacs in the lungs are where oxygen passes into the bloodstream.",
+      answer: "Alveoli" }
+  - { category: "Human Body", level: "7th Grade", value: 500,
+      question: "Chemical messengers such as adrenaline and insulin, released by glands of the endocrine system.",
+      answer: "Hormones" }
+
+  # ---------- Genetics ----------
+  - { category: "Genetics", level: "7th Grade", value: 100,
+      question: "The molecule that carries genetic instructions, shaped like a twisted ladder (double helix).",
+      answer: "DNA" }
+  - { category: "Genetics", level: "7th Grade", value: 100,
+      question: "A segment of DNA that codes for a particular trait.",
+      answer: "A gene" }
+  - { category: "Genetics", level: "7th Grade", value: 200,
+      question: "An allele whose trait is hidden whenever a dominant allele is present is called this.",
+      answer: "Recessive" }
+  - { category: "Genetics", level: "7th Grade", value: 200,
+      question: "The form of a gene that shows up even when only one copy is present, often written as a capital letter.",
+      answer: "Dominant (allele)" }
+  - { category: "Genetics", level: "7th Grade", value: 300,
+      question: "This monk's experiments breeding pea plants made him the 'father of genetics.'",
+      answer: "Gregor Mendel" }
+  - { category: "Genetics", level: "7th Grade", value: 300,
+      question: "The threadlike structures in the nucleus that carry genes; humans have 46.",
+      answer: "Chromosomes" }
+  - { category: "Genetics", level: "7th Grade", value: 400,
+      question: "A box-shaped diagram used to predict the probability of offspring inheriting traits.",
+      answer: "A Punnett square" }
+  - { category: "Genetics", level: "7th Grade", value: 400,
+      question: "An organism carrying two different alleles for a trait, such as Bb, is said to be this.",
+      answer: "Heterozygous (a hybrid)" }
+  - { category: "Genetics", level: "7th Grade", value: 500,
+      question: "If 'Bb' is the genotype, this term describes the physical trait you actually see, such as brown eyes.",
+      answer: "The phenotype" }
+  - { category: "Genetics", level: "7th Grade", value: 500,
+      question: "A change in a DNA sequence, which can create new variation in a trait.",
+      answer: "A mutation" }
+
+  # ---------- Ecology ----------
+  - { category: "Ecology", level: "7th Grade", value: 100,
+      question: "An organism that makes its own food, such as a green plant.",
+      answer: "A producer (autotroph)" }
+  - { category: "Ecology", level: "7th Grade", value: 100,
+      question: "An animal that eats only plants.",
+      answer: "A herbivore" }
+  - { category: "Ecology", level: "7th Grade", value: 200,
+      question: "A model that uses arrows to show how energy passes from one organism to another as food.",
+      answer: "A food chain (or food web)" }
+  - { category: "Ecology", level: "7th Grade", value: 200,
+      question: "All the living and nonliving things interacting together in a particular area.",
+      answer: "An ecosystem" }
+  - { category: "Ecology", level: "7th Grade", value: 300,
+      question: "Organisms like fungi and bacteria that break down dead matter and return nutrients to the soil.",
+      answer: "Decomposers" }
+  - { category: "Ecology", level: "7th Grade", value: 300,
+      question: "In a predator-prey relationship, the animal that is hunted and eaten is called this.",
+      answer: "The prey" }
+  - { category: "Ecology", level: "7th Grade", value: 400,
+      question: "The original source of almost all energy for life on Earth.",
+      answer: "The Sun" }
+  - { category: "Ecology", level: "7th Grade", value: 400,
+      question: "A close, long-term relationship between two different species, such as a bee and a flower.",
+      answer: "Symbiosis" }
+  - { category: "Ecology", level: "7th Grade", value: 500,
+      question: "Roughly this percentage of energy is passed to the next level each step up a food chain.",
+      answer: "About 10 percent" }
+  - { category: "Ecology", level: "7th Grade", value: 500,
+      question: "The largest population of a species that an environment can support over the long term.",
+      answer: "The carrying capacity" }

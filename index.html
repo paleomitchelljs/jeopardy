@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classroom Jeopardy</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- YAML parser (client-side, loaded from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+  <header id="topbar">
+    <h1 id="game-title">JEOPARDY</h1>
+    <div class="controls">
+      <span id="pool-info" class="pool-info"></span>
+      <button id="newgame-btn" type="button" title="Clear all scores and restore every square">New Game</button>
+    </div>
+  </header>
+
+  <div id="layout">
+    <aside id="sidebar">
+
+      <section class="panel" id="build-panel">
+        <h2>Build Board</h2>
+
+        <label class="field">
+          <span>Level</span>
+          <select id="level-select" aria-label="Filter categories by level"></select>
+        </label>
+
+        <div class="field">
+          <span>Categories <small id="cat-hint"></small></span>
+          <div id="category-list" role="group" aria-label="Choose categories"></div>
+        </div>
+
+        <div class="field">
+          <span>Point tier</span>
+          <div class="tier-options">
+            <label><input type="radio" name="tier" value="1" checked /> 100–500</label>
+            <label><input type="radio" name="tier" value="2" /> 200–1000</label>
+          </div>
+        </div>
+
+        <button id="generate-btn" type="button">Generate Board</button>
+        <p id="build-msg" class="build-msg"></p>
+      </section>
+
+      <section class="panel" id="teams-panel">
+        <h2>Teams</h2>
+        <label class="field inline">
+          <span>How many</span>
+          <select id="team-count-select" aria-label="Number of teams">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+        <ul id="team-list"></ul>
+      </section>
+
+    </aside>
+
+    <main id="board-wrap">
+      <div id="board" role="grid" aria-label="Jeopardy board"></div>
+      <p id="board-empty" class="board-empty">Choose categories on the left and click <strong>Generate Board</strong>.</p>
+    </main>
+  </div>
+
+  <!-- Full-screen question overlay -->
+  <div id="overlay" class="hidden" role="dialog" aria-modal="true" aria-labelledby="overlay-question">
+    <div id="overlay-inner">
+      <div id="overlay-meta"></div>
+      <p id="overlay-question"></p>
+      <div id="overlay-answer" class="hidden"></div>
+      <button id="reveal-btn" type="button" class="hidden">Reveal Answer</button>
+
+      <div id="assign-section">
+        <p class="assign-label">Award <span id="assign-value"></span> to:</p>
+        <div id="assign-buttons"></div>
+      </div>
+
+      <button id="cancel-btn" type="button" class="ghost-btn">Cancel (Esc) — leave square open</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

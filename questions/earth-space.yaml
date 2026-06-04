@@ -1,0 +1,171 @@
+# ============================================================
+# EARTH & SPACE SCIENCE question library  (level: "Earth & Space (8-9)")
+# Two deep categories with 5 questions per (category, value) cell,
+# so a generated column draws from a real pool (e.g. many 100-pt
+# Geology questions). Add more entries to deepen the pool further.
+# ============================================================
+questions:
+
+  # ================= GEOLOGY =================
+  # ---- 100 ----
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 100,
+      question: "The thin, solid, outermost layer of the Earth where we live.",
+      answer: "The crust" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 100,
+      question: "The theory that Earth's outer shell is broken into large moving pieces.",
+      answer: "Plate tectonics" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 100,
+      question: "The rock type that forms when molten magma or lava cools and hardens.",
+      answer: "Igneous rock" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 100,
+      question: "A sudden shaking of the ground caused by movement along a fault.",
+      answer: "An earthquake" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 100,
+      question: "The breaking down of rock into smaller pieces by wind, water, ice, or living things.",
+      answer: "Weathering" }
+  # ---- 200 ----
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 200,
+      question: "The thick layer of hot, slowly flowing rock that lies between the crust and the core.",
+      answer: "The mantle" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 200,
+      question: "This scientist proposed 'continental drift,' noticing that the continents fit together like a puzzle.",
+      answer: "Alfred Wegener" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 200,
+      question: "The rock type made of pressed-together layers of sediment, often holding fossils.",
+      answer: "Sedimentary rock" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 200,
+      question: "The instrument that detects and records the waves produced by an earthquake.",
+      answer: "A seismograph (seismometer)" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 200,
+      question: "The process that picks up and carries away weathered rock and soil to a new place.",
+      answer: "Erosion" }
+  # ---- 300 ----
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 300,
+      question: "Earth's inner and outer core are made mostly of these two metals.",
+      answer: "Iron and nickel" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 300,
+      question: "A plate boundary where two plates pull apart and new crust forms, as at the Mid-Atlantic Ridge.",
+      answer: "A divergent boundary" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 300,
+      question: "The rock type changed by intense heat and pressure, like marble formed from limestone.",
+      answer: "Metamorphic rock" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 300,
+      question: "The point on Earth's surface directly above where an earthquake begins.",
+      answer: "The epicenter" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 300,
+      question: "The process of dropping off sediment in a new location, which builds features like river deltas.",
+      answer: "Deposition" }
+  # ---- 400 ----
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 400,
+      question: "The rigid outer shell of Earth — crust plus the uppermost mantle — that is broken into plates.",
+      answer: "The lithosphere" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 400,
+      question: "A boundary where plates collide and one plate sinks beneath another in a process called subduction.",
+      answer: "A convergent boundary" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 400,
+      question: "The never-ending process by which one type of rock can change into another over time.",
+      answer: "The rock cycle" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 400,
+      question: "This horseshoe-shaped zone around the Pacific Ocean has most of Earth's earthquakes and volcanoes.",
+      answer: "The Ring of Fire" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 400,
+      question: "Rivers tend to carve valleys of this letter-shape, while glaciers carve valleys of a U-shape.",
+      answer: "V-shaped" }
+  # ---- 500 ----
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 500,
+      question: "The soft, partly molten layer of the upper mantle on which the tectonic plates slide.",
+      answer: "The asthenosphere" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 500,
+      question: "The slow, looping flow of heat in the mantle that is the main force driving plate motion.",
+      answer: "Convection currents" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 500,
+      question: "A mineral's resistance to being scratched, ranked from 1 to 10 on the Mohs scale.",
+      answer: "Hardness" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 500,
+      question: "Tall, steep volcanoes built from alternating layers of hardened lava and ash, like Mount Fuji, are this type.",
+      answer: "Composite volcanoes (stratovolcanoes)" }
+  - { category: "Geology", level: "Earth & Space (8-9)", value: 500,
+      question: "Slightly acidic groundwater slowly dissolving limestone underground creates these hollow features.",
+      answer: "Caves (caverns)" }
+
+  # ================= ASTRONOMY =================
+  # ---- 100 ----
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
+      question: "The star at the center of our solar system.",
+      answer: "The Sun" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
+      question: "An instrument that gathers light to magnify and study distant objects in space.",
+      answer: "A telescope" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
+      question: "One full rotation of the Earth on its axis takes about this amount of time.",
+      answer: "One day (about 24 hours)" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
+      question: "The United States space agency, founded in 1958.",
+      answer: "NASA" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
+      question: "The name of the spiral galaxy that contains our solar system.",
+      answer: "The Milky Way" }
+  # ---- 200 ----
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 200,
+      question: "The largest planet in our solar system.",
+      answer: "Jupiter" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 200,
+      question: "The process in the Sun's core that releases energy by fusing hydrogen into helium.",
+      answer: "Nuclear fusion" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 200,
+      question: "Earth's seasons are caused mainly by the tilt of this imaginary line through the planet.",
+      answer: "Earth's axis" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 200,
+      question: "The first artificial satellite, launched by the Soviet Union in 1957.",
+      answer: "Sputnik 1" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 200,
+      question: "A massive collection of gas, dust, and billions of stars bound together by gravity.",
+      answer: "A galaxy" }
+  # ---- 300 ----
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 300,
+      question: "Mercury, Venus, Earth, and Mars are small, rocky worlds known as this type of planet.",
+      answer: "Terrestrial (rocky) planets" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 300,
+      question: "Among stars, this color marks the hottest surface temperatures, while red marks the coolest.",
+      answer: "Blue" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 300,
+      question: "When the Moon passes directly between the Sun and Earth, blocking the Sun, it causes this event.",
+      answer: "A solar eclipse" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 300,
+      question: "The 1969 mission that first landed humans on the Moon.",
+      answer: "Apollo 11" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 300,
+      question: "The leading scientific theory for how the universe began about 13.8 billion years ago.",
+      answer: "The Big Bang theory" }
+  # ---- 400 ----
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 400,
+      question: "This world was reclassified from a planet to a 'dwarf planet' in 2006.",
+      answer: "Pluto" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 400,
+      question: "The huge explosion that occurs when a massive star reaches the end of its life.",
+      answer: "A supernova" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 400,
+      question: "The daily rise and fall of ocean water, caused mostly by the Moon's gravity, are called these.",
+      answer: "Tides" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 400,
+      question: "Any object, natural or human-made, that orbits a planet — like the Moon or the ISS — is called this.",
+      answer: "A satellite" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 400,
+      question: "A cloud of gas and dust in space where new stars are born.",
+      answer: "A nebula" }
+  # ---- 500 ----
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 500,
+      question: "The region of rocky debris orbiting the Sun between Mars and Jupiter.",
+      answer: "The asteroid belt" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 500,
+      question: "This graph classifies stars by plotting their brightness against their temperature.",
+      answer: "The Hertzsprung-Russell (H-R) diagram" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 500,
+      question: "New, crescent, quarter, gibbous, and full are all examples of these lunar appearances.",
+      answer: "The phases of the Moon" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 500,
+      question: "This space telescope, launched in 1990, sent back famous deep-space images; its successor is the James Webb.",
+      answer: "The Hubble Space Telescope" }
+  - { category: "Astronomy", level: "Earth & Space (8-9)", value: 500,
+      question: "A region in space where gravity is so strong that not even light can escape.",
+      answer: "A black hole" }

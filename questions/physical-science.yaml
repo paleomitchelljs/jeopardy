@@ -1,0 +1,101 @@
+# ============================================================
+# PHYSICAL SCIENCE question library  (level: "7th Grade")
+# Depth target: 2 questions per (category, value).
+# ============================================================
+questions:
+
+  # ---------- Matter & Atoms ----------
+  - { category: "Matter & Atoms", level: "7th Grade", value: 100,
+      question: "Anything that has mass and takes up space.",
+      answer: "Matter" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 100,
+      question: "The smallest particle of an element that still has the properties of that element.",
+      answer: "An atom" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 200,
+      question: "The state of matter that has both a definite shape and a definite volume.",
+      answer: "A solid" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 200,
+      question: "The positively charged particle found in the nucleus of an atom.",
+      answer: "A proton" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 300,
+      question: "The change of state when a liquid turns into a gas.",
+      answer: "Evaporation (vaporization)" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 300,
+      question: "The chart that organizes all the known elements by their properties.",
+      answer: "The periodic table" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 400,
+      question: "The change of state directly from a solid to a gas, as when dry ice 'smokes.'",
+      answer: "Sublimation" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 400,
+      question: "The number of protons in an atom, which determines what element it is.",
+      answer: "The atomic number" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 500,
+      question: "This fourth state of matter, found in stars and lightning, is a superheated ionized gas.",
+      answer: "Plasma" }
+  - { category: "Matter & Atoms", level: "7th Grade", value: 500,
+      question: "These negatively charged particles move around the nucleus in energy levels.",
+      answer: "Electrons" }
+
+  # ---------- Forces & Energy ----------
+  - { category: "Forces & Energy", level: "7th Grade", value: 100,
+      question: "A push or a pull acting on an object.",
+      answer: "A force" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 100,
+      question: "The type of energy an object has because it is moving.",
+      answer: "Kinetic energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 200,
+      question: "The force that pulls objects toward the center of the Earth.",
+      answer: "Gravity" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 200,
+      question: "Stored energy due to an object's position, like a ball held at the top of a hill.",
+      answer: "Potential energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 300,
+      question: "Newton's First Law says an object at rest stays at rest unless acted on by an unbalanced one of these.",
+      answer: "A force" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 300,
+      question: "This law states energy cannot be created or destroyed, only changed from one form to another.",
+      answer: "The law of conservation of energy" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 400,
+      question: "The force that opposes motion whenever two surfaces rub against each other.",
+      answer: "Friction" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 400,
+      question: "The transfer of thermal energy through direct contact between particles, as a metal spoon heats in soup.",
+      answer: "Conduction" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 500,
+      question: "Speed measured in a specific direction is called this.",
+      answer: "Velocity" }
+  - { category: "Forces & Energy", level: "7th Grade", value: 500,
+      question: "The transfer of heat through a gas or liquid by rising warm currents and sinking cool ones.",
+      answer: "Convection" }
+
+  # ---------- Reactions & Mixtures ----------
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
+      question: "Two or more materials physically combined but not chemically joined, such as a tossed salad.",
+      answer: "A mixture" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 100,
+      question: "Often called the 'universal solvent,' this liquid dissolves more substances than any other.",
+      answer: "Water" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
+      question: "A mixture that is blended evenly throughout, like salt fully dissolved in water.",
+      answer: "A solution (homogeneous mixture)" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 200,
+      question: "A mixture that is NOT blended evenly, like sand in water, where you can still see the parts.",
+      answer: "A heterogeneous mixture" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
+      question: "A change that forms a brand-new substance, such as iron rusting or wood burning.",
+      answer: "A chemical change (reaction)" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 300,
+      question: "On the pH scale a substance below 7 is an acid; a substance above 7 is this.",
+      answer: "A base (alkaline)" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
+      question: "In a chemical reaction, the starting substances are called this.",
+      answer: "The reactants" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 400,
+      question: "The new substances formed and left over after a chemical reaction are called these.",
+      answer: "The products" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
+      question: "This law states that the total mass stays the same before and after a chemical reaction.",
+      answer: "The law of conservation of mass" }
+  - { category: "Reactions & Mixtures", level: "7th Grade", value: 500,
+      question: "A reaction that releases energy as heat, such as burning or an explosion, is called this.",
+      answer: "Exothermic" }

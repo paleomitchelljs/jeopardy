@@ -1,0 +1,27 @@
+# ============================================================
+# QUESTION LIBRARY — manifest
+#
+# The board is no longer built from fixed sets. Instead, every
+# question is a standalone entry tagged with `category`, `value`,
+# and `level`. At game time you pick which category-columns to
+# show and the board DRAWS a random question for each
+# (category + value) cell from the pool below.
+#
+# This file just lists the data files to load and merge into one
+# big pool. Add a new file here after creating it in questions/.
+#
+# Entry format (in each data file):
+#   - category: "Geology"            # the column theme / tag
+#     level: "Earth & Space (8-9)"   # grouping tag for the level filter
+#     value: 100                      # base point tier (100..500)
+#     question: "..."
+#     answer: "..."                   # optional (powers Reveal Answer)
+#
+# Depth = how many entries share the same category+value. The more
+# you add, the more variety each generated board has. Earth & Space
+# categories ship with 5 per cell; 7th-grade categories with 2.
+# ============================================================
+files:
+  - life-science.yaml
+  - physical-science.yaml
+  - earth-space.yaml
