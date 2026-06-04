@@ -166,7 +166,7 @@ questions:
   # ================= ASTRONOMY =================
   # ---- 100 ----
   - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
-      question: "The star at the center of it all, holding the planets in their orbits.",
+      question: "Named Sol, this star is orbitted by eight planets including Earth.",
       answer: "The Sun" }
   - { category: "Astronomy", level: "Earth & Space (8-9)", value: 100,
       question: "The tool that gathers far-off light so we can study what is too dim for the eye.",
